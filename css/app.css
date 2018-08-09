@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'FarsiSans';
+  src: url("../fonts/FarsiSans.eot?#") format("eot"), url("../fonts/FarsiSans.woff2") format("woff2"), url("../fonts/FarsiSans.woff") format("woff"); }
+.primary-color-dark {
+  color: #303F9F; }
+
+.bg-primary-color-dark {
+  background-color: #303F9F; }
+
+.border-primary-color-dark {
+  border-color: #303F9F; }
+
+.primary-color {
+  color: #3F51B5; }
+
+.bg-primary-color {
+  background-color: #3F51B5; }
+
+.border-primary-color {
+  border-color: #3F51B5; }
+
+.primary-color-light {
+  color: #C5CAE9; }
+
+.bg-primary-color-light {
+  background-color: #C5CAE9; }
+
+.border-primary-color-light {
+  border-color: #C5CAE9; }
+
+.accent-color {
+  color: #009688; }
+
+.bg-accent-color {
+  background-color: #009688; }
+
+.border-accent-color {
+  border-color: #009688; }
+
+.alternate-accent-color {
+  color: #EE4035; }
+
+.bg-alternate-accent-color {
+  background-color: #EE4035; }
+
+.border-alternate-accent-color {
+  border-color: #EE4035; }
+
+.secondary-color {
+  color: #56B949; }
+
+.bg-secondary-color {
+  background-color: #56B949; }
+
+.border-secondary-color {
+  border-color: #56B949; }
+
+.divider-color {
+  color: #BDBDBD; }
+
+.bg-divider-color {
+  background-color: #BDBDBD; }
+
+.border-divider-color {
+  border-color: #BDBDBD; }
+
+nav {
+  background-color: #3F51B5; }
+  nav .nav-logo-name {
+    display: inline;
+    padding: 200px 0 0 0; }
+  nav .brand-logo {
+    position: inherit;
+    font-size: 21px; }
+  nav #logo-container {
+    padding: 6px 6px 0 0;
+    height: 60px; }
+
+.divider {
+  background-color: #BDBDBD; }
+
+ul {
+  padding-right: 0; }
+
+.dropdown-content li span, .dropdown-content li a {
+  font-family: "FarsiSans", sans-serif;
+  font-size: 13px;
+  color: #757575;
+  float: right; }
+
+body {
+  font-family: "FarsiSans", sans-serif;
+  font-size: 13px;
+  color: #212121;
+  background-color: #C5CAE9; }
+  body .row {
+    padding-top: 5px; }
+
+.main-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+  box-shadow: 6px 0px 9px #888888;
+  border-radius: 5px 5px 5px 5px; }
+
+.icon-block > h5 {
+  color: white;
+  background-color: #303F9F;
+  line-height: 2.5em; }
+.icon-block > .introduction-row-detail {
+  padding: 9px 9px 9px 9px;
+  text-align: justify; }
+
+.page-footer {
+  background-color: #009688; }
+
+h1 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h2 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h3 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h4 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h5 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h6 {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400;
+  line-height: 1.1; }
+
+table th {
+  font-family: "FarsiSans", sans-serif;
+  font-weight: 400; }
+
+.row .col {
+  float: right; }
+
+.banner-logo {
+  width: 64px;
+  height: 64px; }
+
+@media only screen and (min-width: 601px) {
+  body .container {
+    width: 85%; } }
+
+/*# sourceMappingURL=app.css.map */

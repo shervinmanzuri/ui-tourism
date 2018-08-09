@@ -1,0 +1,103 @@
+nav {
+    
+    background-color: $primary-color;
+
+    .nav-logo-name{
+        display: inline;
+        padding: 200px 0 0 0;
+    }
+ 
+    .brand-logo{
+        position: inherit;
+        font-size: $font-size-huge;
+    }
+
+    #logo-container {
+        padding: 6px 6px 0 0;
+        height: 60px;
+    }
+}
+
+.divider {
+    background-color: $divider-color;
+}
+
+ul{
+    padding-right: 0;
+}
+
+.dropdown-content {
+    li {
+        span, a {
+            font-family: $font-stack-persian;
+            font-size: $font-size-main;
+            color: $secondary-text-color;    
+            float: right;
+        }
+    }
+}
+
+body {
+    font-family: $font-stack-persian;
+    font-size: $font-size-main;
+    color: $primary-text-color;
+    background-color: $primary-color-light;
+
+    .row {
+        padding-top: 5px;
+    }
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+
+    z-index: 1;
+    box-shadow: 6px 0px 9px #888888;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.icon-block {
+
+    > h5 {
+        color: white;
+        background-color: $primary-color-dark;
+        line-height: 2.5em;
+    }
+
+    > .introduction-row-detail {
+        padding: 9px 9px 9px 9px;
+        text-align: justify;
+    }
+}
+
+
+
+.page-footer {
+    background-color: $accent-color;
+}
+
+@for $c from 1 through 6 {
+    h#{$c} {
+        font-family: $font-stack-persian;
+        font-weight: $font-weight-normal;
+        line-height: $font-line-height-header;
+    }
+}
+
+table th {
+    font-family: $font-stack-persian;
+    font-weight: $font-weight-normal;
+}
+
+.row .col {
+    float: right;
+}
+
+.banner-logo {
+    width: $logo-size;
+    height: $logo-size;
+}
+
