@@ -1,6 +1,6 @@
 nav {
     
-    background-color: $primary-color;
+    background-color: $primary-color-dark;
 
     .nav-logo-name{
         display: inline;
@@ -16,6 +16,12 @@ nav {
         padding: 6px 6px 0 0;
         height: 60px;
     }
+}
+
+input{
+    font-family: $font-stack-persian;
+    font-size: $font-size-main; //SASSIFY THIS
+    color: $secondary-text-color;    
 }
 
 .divider {
@@ -55,7 +61,7 @@ body {
     position: relative;
 
     z-index: 1;
-    box-shadow: 6px 0px 9px #888888;
+    box-shadow: 6px 0px 9px #888888; //SASSIFY THIS
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -63,8 +69,10 @@ body {
 
     > h5 {
         color: white;
-        background-color: $primary-color-dark;
+        background-color: $primary-color;
         line-height: 2.5em;
+        box-shadow: 3px 0px 3px #888888; //SASSIFY THIS
+        border-radius: 5px 5px 5px 5px;
     }
 
     > .introduction-row-detail {
@@ -74,6 +82,36 @@ body {
 }
 
 
+.fancy {
+    line-height: 0.4;
+    text-align: center;
+    margin-bottom: 40px;
+  
+      span {
+        
+        display: inline-block;
+        position: relative;
+  
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            height: 10px;
+            border-bottom: 2px solid $primary-color-light;
+            border-top: 2px solid $primary-color-light;
+            width: 135px;
+        }
+  
+        &:before {
+            right: 100%;
+            margin-right: 15px;
+        }
+  
+        &:after {
+            left: 100%;
+            margin-left: 15px;
+        }
+    }
+}
 
 .page-footer {
     background-color: $accent-color;
@@ -100,4 +138,3 @@ table th {
     width: $logo-size;
     height: $logo-size;
 }
-
